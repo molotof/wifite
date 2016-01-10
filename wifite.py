@@ -1581,7 +1581,7 @@ class RunEngine:
                             continue
                         if row[0].strip() == 'BSSID':
                             continue
-                        if len(row) < 14
+                        if len(row) < 14:
                             continue
                         enc = row[5].strip()
                         wps = False
